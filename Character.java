@@ -1,16 +1,5 @@
 package W1Game;
 
-// test push validity
-// test push validity
-// test push validity
-// test push validity
-// test push validity// test push validity// test push validity
-// test push validity
-// test push validity
-// test push validity
-
-
-
 import java.util.Arrays;
 
 public class Character {
