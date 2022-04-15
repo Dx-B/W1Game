@@ -30,9 +30,3 @@ public class Item {
         }
     }
 }
-
-class Weapon extends Item {
-    public Weapon(String name, String type, boolean occupiesInvenSlot, int itemRarity) {
-        super(name, type, occupiesInvenSlot, itemRarity);
-    }
-}
