@@ -7,7 +7,7 @@ public class start {
 
     public static void main(String[] args) {
         // launch();
-        debug();
+        debug(); // this function is for debug you f**king retar*s
         }
 
 
