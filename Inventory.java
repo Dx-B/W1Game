@@ -16,7 +16,7 @@ public class Inventory {
             System.out.println(e.toString() + " cannot be added to Slot " + index + ", "+slots.get(index-1)+" is already in this slot."); // future click and swap
         }
         else {
-            slots.set((index-1),e); // CRITICAL : SETS TO INDEX-1, SLOT CORRECTION OCCURING IN FUNCTION
+            slots.set((index-1),e); // CRITICAL : SETS TO INDEX-1, SLOT CORRECTION OCCURRING IN FUNCTION
             System.out.println("Added "+e.toString()+" to Slot " + index);
         }
     } // write adding conditions, such as what if full or already has item

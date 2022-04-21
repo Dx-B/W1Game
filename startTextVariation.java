@@ -1,13 +1,13 @@
 package W1Game;
 import java.util.Scanner;
 
-public class start {
+public class startTextVariation {
 
     private static Character mainCharacter;
 
     public static void main(String[] args) {
         // launch();
-        debug(); // this function is for debug you f**king retar*s
+        debug(); // this function is for debug
         }
 
 
@@ -52,15 +52,13 @@ public class start {
         System.out.println("The chest springs open, revealing its contents.");
     }
     public static void debug() {
-        createCharacter("tester");
-        Item CheeseWheel = new Item("Cheese Wheel", "Food",true, 0);
-        Item fillerItem = new Item("null","debug",true,99);
-        Crate box = new Crate("Box");
-        box.addToCrate(CheeseWheel);
-        System.out.println(box.seeContents());
-        mainCharacter.returnInventory();
-        mainCharacter.inventory().addToInventoryAtIndex(fillerItem,2);
-        mainCharacter.inventory().addToInventoryAtIndex(box.open(),1);
-        mainCharacter.returnInventory();
+        createCharacter("Gladiator");
+        String playerInput;
+        while (mainCharacter.hp() != 0) {
+            Scanner textInput = new Scanner(System.in);
+            playerInput = textInput.nextLine();
+            System.out.println("Welcome to the Arena, Challenger " + mainCharacter.name() + "!");
+            
+        }
     }
 }
